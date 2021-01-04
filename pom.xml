@@ -87,9 +87,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.weixin.api</groupId>
-            <artifactId>cuke</artifactId>
-            <version>jxc_2.2.2</version>
+            <groupId>com.cucumberEncapsulation.api</groupId>
+            <artifactId>cucumber-core</artifactId>
+            <version>1.0.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
