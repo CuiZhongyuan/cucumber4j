@@ -6,9 +6,9 @@ Feature: ["新增成员接口"]
     """
      {
       "userid": "TESTER",
-      "name": "张三",
-      "alias": "jackzhang",
-      "mobile": "13800000005",
+      "name": "czy",
+      "alias": "czy",
+      "mobile": "15238305317",
        "department": [2],
       }
     """

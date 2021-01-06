@@ -1,6 +1,6 @@
 Feature: ["读取人员接口"]
 
-  Scenario Outline: 读取人员接口_正向測試
+  Scenario Outline: 读取人员接口_正向测试
     Given API "/cgi-bin/user/get"
     And Param
     """
