@@ -87,9 +87,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.cucumberEncapsulation.api</groupId>
-            <artifactId>cucumber-core</artifactId>
-            <version>1.0.0</version>
+            <groupId>com.cucumber.api</groupId>
+            <artifactId>core</artifactId>
+            <version>1.0.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>

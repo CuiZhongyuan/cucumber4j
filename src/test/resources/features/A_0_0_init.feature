@@ -4,7 +4,8 @@ Feature: 初始化数据
   Scenario:  初始化变量数据
     Given INI_VAR_DATA
     """
-    access_token : 7P4edvsgJ5NQk1cAoR_pbWpWo5YabSxi2aNuCJ2i7lDKPH4RWlkT7k6NDQSbBepAmqRHe_vYPkGPqH_amwBCo0sRXKWuVFp7GwEuBrzE4nGjq6gVFmLYaFB8JAqlyhiwzaMRfBdyEBN-iBQOU875u7qeiY8rTeaSy4NFkq1iq_r2BE7NjKOc2UV7BrzUT1pJ7IWMw9PEkT9IMGbpbvixJw
+    testNum: Random(Long[4])
+    testNum: Random(Char[4])
     """
 #    And INIT_MYSQL_DATA
 #    """
