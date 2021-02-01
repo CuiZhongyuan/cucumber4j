@@ -1,0 +1,128 @@
+[
+  {
+    "request": {
+      "uri": "/hr/regist/insertRegist"
+    },
+    "response": {
+      "json":{
+        "code": 200,
+        "userid" : "userid123456"
+      }
+    }
+  }, {
+    "request": {
+      "uri": "/hr/regist/editRegist"
+    },
+    "response": {
+      "json":{
+        "code": 200,
+        "msg" : "修改成功！！！"
+      }
+    }
+  }, {
+    "request": {
+      "uri": "/hr/regist/findRegist"
+    },
+    "response": {
+      "json":    {
+        "gender": "12",
+        "notifyEntryTime": "2021-01-06",
+        "userEmail": "1213@qq.com",
+        "userMobile": "18537159532",
+        "userName": "testname1",
+        "wxAccount": "123kg1"
+      }
+    }
+  }, {
+    "request": {
+      "uri": "/hr/regist/deleteRegist"
+    },
+    "response": {
+      "json":{
+        "code": 200,
+        "msg" : "删除成功！！！"
+      }
+    }
+  },{
+  "request": {
+    "uri": "/news/1112158736"
+  },
+  "response": {
+    "text": "<html lang=\"en\">\n<head/>\n<head>\n    <title>待业邦合伙人招募计划 - 待业邦</title>\n    <meta charset=\"UTF-8\"/>\n    <link rel=\"stylesheet\" href=\"../lib/bootstrap/css/news.css\"/>\n    <link rel=\"stylesheet\" href=\"../lib/bootstrap/css/bootstrap.min.css\"/>\n    <link href=\"../lib/froala_editor/css/froala_style.min.css\" rel=\"stylesheet\" type=\"text/css\"/>\n    <link href=\"../lib/froala_editor/css/froala_editor.pkgd.min.css\" rel=\"stylesheet\" type=\"text/css\"/>\n    <link rel=\"icon\" href=\"../imgs/icon/favicon.ico\"/>\n</head>\n<body>\n<div class=\"leayer clearfix\" id=\"herd\">\n    <a shape=\"rect\" class=\"fl\" href=\"#\">\n        <img id=\"logobd\" src=\"../lib/bootstrap/css/imgs/title.png\" alt=\"待业邦\"/>\n    </a>\n    <ul class=\"fl\">\n        <li class=\"fl\">\n            <a shape=\"rect\" class=\"nav\" href=\"../index.html\">首页</a>\n        </li>\n        <li class=\"fl\">\n            <a shape=\"rect\" class=\"nav\" href=\"../gambit.html\">话题</a>\n        </li>\n        <li class=\"fl\">\n            <a shape=\"rect\" class=\"nav\" href=\"../company.html\">曝光</a>\n        </li>\n    </ul>\n    <ul class=\"fr\" id=\"login_herd\"/>\n</div>\n<div class=\"leayer clearfix\" id=\"newsInfo\">\n    <div class=\"fl\" id=\"news_data_info\">\n        <h3 class=\"news_title\">待业邦合伙人招募计划</h3>\n        <div class=\"datatime\">\n            <span>2020-01-05 12:11:40</span>\n        </div>\n        <div class=\"describe fr-view\">\n            <p>待业邦合伙人招募计划启动！</p>\n            <p>失业已经成功中国面临的一个巨大的社会危机，2019年的互联网裁员潮，互联网的泡沫退去，清洗掉的不是浑水摸鱼不思进取的部分人，而是给整个社会敲响了警钟。中国高速经济增长为何没有带来高就业？当中国的经济出现停滞期，那会发生什么？</p>\n            <p>2019年，是过去十年最差的一年，但是却是未来十年最好的一年。整个社会都在悲观的预测。未来，可能举步维艰。</p>\n            <p>待业邦创建的目的：</p>\n            <p>希望大家有一个寒冬抱团取暖之处，群策群力，大家的力量可以改变很多东西，也可以创造很多东西。大家时间充裕，好的提议，随时可以找到一群支持者，衍生项目，造福社会，创造价值。</p>\n            <p>合作形式：</p>\n            <p>现在加入待业邦，将成为待业邦的一部分，待业邦的每一个决策都将在得到您的投票认同后实施，目前不设办公地、不设薪资、不设岗位。您将成为股东性质的一员，享受由您和团队一起创造的收益与价值，将按季度、或年度瓜分收益，具体分配方式将由各个成员一起决定。</p>\n            <p>这期间您可以继续求职，就业。但是希望您保证有一定的时间和经理来为待业邦创造价值。</p>\n            <p>合作年续：</p>\n            <p>当您正式加入后，除非项目停止、倒闭，另或者您自愿退出，另或者被投票逐出，待业邦将永久承认您的合伙人性质，始终享受利益分配、投票权、建议权。</p>\n            <p>您的职责：</p>\n            <p>为发展提供意见，或投票。</p>\n            <p>您擅长写作，可以维护站点内容。</p>\n            <p>您擅长运营，可以推广我们的理念或网站，邀请更多人加入。</p>\n            <p>您擅长设计，可以协助设计、优化项目页面。</p>\n            <p>您具有开发技能，可以一起协助维护或开发网站新功能。</p>\n            <p>项目现状：</p>\n            <p>目前待业邦已经实现了基础的社区话题功能，和企业曝光（发牢骚），个人寄语，公告发布，banner管理、个人信息管理，后期将围绕如何实现线上项目团队招募和管理为核心功能。</p>\n            <p>项目开发实现工具和框架：</p>\n            <p>更多详情加入后了解。</p>\n            <p>\n                <br clear=\"none\" style=\"box-sizing: border-box;\"/>\n            </p>\n            <p>如何加入：</p>\n            <p>可发送个人介绍到邮箱 postmaster@esxes.com 并添加我个人微信 shi120kg（备注：待业合伙人），通过后我将与您取得联系。</p>\n            <p>创始人发言：</p>\n            <p>这是一次真正的合伙人招募，不收取任何费用，不是以加盟形式出现，虽然我们处于初创阶段，后期市场较大，个人能力有限，资源有限，所以通过此类方式邀请大家加入，共创佳业。</p>\n        </div>\n    </div>\n    <div class=\"fr\" id=\"news_hot\">\n        <div class=\"newsMk_title\">\n            热点\n        </div>\n        <div class=\"news_itme\">\n            <div class=\"news_imgs\">\n                <a shape=\"rect\" href=\"../news/1112158736\">\n                    <img src=\"../image/114780877/1578197048677425_hehuojihua.png\" alt=\"待业邦合伙人招募计划\"/>\n                </a>\n            </div>\n            <div class=\"news_data\">\n                <h3 class=\"news_data_title\">待业邦合伙人招募计划</h3>\n                <p>待业邦合伙人招募计划启动！失业已经成功中...</p>\n            </div>\n        </div>\n        <div class=\"news_itme\">\n            <div class=\"news_imgs\">\n                <a shape=\"rect\" href=\"../news/1116946561\">\n                    <img src=\"../image/news/2020-01-08-10-04-40_1578062359510449_11.jpg\" alt=\"待业邦上线啦！\"/>\n                </a>\n            </div>\n            <div class=\"news_data\">\n                <h3 class=\"news_data_title\">待业邦上线啦！</h3>\n                <p>待业邦上线啦！待业邦终于上线了，欢迎加入...</p>\n            </div>\n        </div>\n        <div class=\"news_itme\">\n            <div class=\"news_imgs\">\n                <a shape=\"rect\" href=\"../news/1048097925\">\n                    <img src=\"../image/news/2020-01-20-17-54-09_1.png\" alt=\"待业投资不可慌不择路，投资有风险，入市需谨慎\"/>\n                </a>\n            </div>\n            <div class=\"news_data\">\n                <h3 class=\"news_data_title\">待业投资不可慌不择路，投资有风险，入市需谨慎</h3>\n                <p>大多数的待业者在失去工作这主要收入来源后...</p>\n            </div>\n        </div>\n    </div>\n</div>\n<script type=\"text/javascript\" src=\"../lib/jquery-3.4.1.min.js\"/>\n<script type=\"text/javascript\" src=\"../lib/jquery-validation/lib/jquery.js\"/>\n<script type=\"text/javascript\" src=\"../lib/bootstrap/js/jquery.cookie.js\"/>\n<script type=\"text/javascript\" src=\"../lib/bootstrap/js/complete.js\"/>\n<script type=\"text/javascript\" src=\"../lib/bootstrap/js/news.js\"/>\n<script type=\"text/javascript\" src=\"../lib/bootstrap/js/bootstrap.js\"/>\n</body>\n</html>\nThen STATUS \"200\"                                        # com.youlu.api.CommonStepDefinitions.status(int)\n<html lang=\"en\">\n<head/>\n<head>\n    <title>待业邦合伙人招募计划 - 待业邦</title>\n    <meta charset=\"UTF-8\"/>\n    <link rel=\"stylesheet\" href=\"../lib/bootstrap/css/news.css\"/>\n    <link rel=\"stylesheet\" href=\"../lib/bootstrap/css/bootstrap.min.css\"/>\n    <link href=\"../lib/froala_editor/css/froala_style.min.css\" rel=\"stylesheet\" type=\"text/css\"/>\n    <link href=\"../lib/froala_editor/css/froala_editor.pkgd.min.css\" rel=\"stylesheet\" type=\"text/css\"/>\n    <link rel=\"icon\" href=\"../imgs/icon/favicon.ico\"/>\n</head>\n<body>\n<div class=\"leayer clearfix\" id=\"herd\">\n    <a shape=\"rect\" class=\"fl\" href=\"#\">\n        <img id=\"logobd\" src=\"../lib/bootstrap/css/imgs/title.png\" alt=\"待业邦\"/>\n    </a>\n    <ul class=\"fl\">\n        <li class=\"fl\">\n            <a shape=\"rect\" class=\"nav\" href=\"../index.html\">首页</a>\n        </li>\n        <li class=\"fl\">\n            <a shape=\"rect\" class=\"nav\" href=\"../gambit.html\">话题</a>\n        </li>\n        <li class=\"fl\">\n            <a shape=\"rect\" class=\"nav\" href=\"../company.html\">曝光</a>\n        </li>\n    </ul>\n    <ul class=\"fr\" id=\"login_herd\"/>\n</div>\n<div class=\"leayer clearfix\" id=\"newsInfo\">\n    <div class=\"fl\" id=\"news_data_info\">\n        <h3 class=\"news_title\">待业邦合伙人招募计划</h3>\n        <div class=\"datatime\">\n            <span>2020-01-05 12:11:40</span>\n        </div>\n        <div class=\"describe fr-view\">\n            <p>待业邦合伙人招募计划启动！</p>\n            <p>失业已经成功中国面临的一个巨大的社会危机，2019年的互联网裁员潮，互联网的泡沫退去，清洗掉的不是浑水摸鱼不思进取的部分人，而是给整个社会敲响了警钟。中国高速经济增长为何没有带来高就业？当中国的经济出现停滞期，那会发生什么？</p>\n            <p>2019年，是过去十年最差的一年，但是却是未来十年最好的一年。整个社会都在悲观的预测。未来，可能举步维艰。</p>\n            <p>待业邦创建的目的：</p>\n            <p>希望大家有一个寒冬抱团取暖之处，群策群力，大家的力量可以改变很多东西，也可以创造很多东西。大家时间充裕，好的提议，随时可以找到一群支持者，衍生项目，造福社会，创造价值。</p>\n            <p>合作形式：</p>\n            <p>现在加入待业邦，将成为待业邦的一部分，待业邦的每一个决策都将在得到您的投票认同后实施，目前不设办公地、不设薪资、不设岗位。您将成为股东性质的一员，享受由您和团队一起创造的收益与价值，将按季度、或年度瓜分收益，具体分配方式将由各个成员一起决定。</p>\n            <p>这期间您可以继续求职，就业。但是希望您保证有一定的时间和经理来为待业邦创造价值。</p>\n            <p>合作年续：</p>\n            <p>当您正式加入后，除非项目停止、倒闭，另或者您自愿退出，另或者被投票逐出，待业邦将永久承认您的合伙人性质，始终享受利益分配、投票权、建议权。</p>\n            <p>您的职责：</p>\n            <p>为发展提供意见，或投票。</p>\n            <p>您擅长写作，可以维护站点内容。</p>\n            <p>您擅长运营，可以推广我们的理念或网站，邀请更多人加入。</p>\n            <p>您擅长设计，可以协助设计、优化项目页面。</p>\n            <p>您具有开发技能，可以一起协助维护或开发网站新功能。</p>\n            <p>项目现状：</p>\n            <p>目前待业邦已经实现了基础的社区话题功能，和企业曝光（发牢骚），个人寄语，公告发布，banner管理、个人信息管理，后期将围绕如何实现线上项目团队招募和管理为核心功能。</p>\n            <p>项目开发实现工具和框架：</p>\n            <p>更多详情加入后了解。</p>\n            <p>\n                <br clear=\"none\" style=\"box-sizing: border-box;\"/>\n            </p>\n            <p>如何加入：</p>\n            <p>可发送个人介绍到邮箱 postmaster@esxes.com 并添加我个人微信 shi120kg（备注：待业合伙人），通过后我将与您取得联系。</p>\n            <p>创始人发言：</p>\n            <p>这是一次真正的合伙人招募，不收取任何费用，不是以加盟形式出现，虽然我们处于初创阶段，后期市场较大，个人能力有限，资源有限，所以通过此类方式邀请大家加入，共创佳业。</p>\n        </div>\n    </div>\n    <div class=\"fr\" id=\"news_hot\">\n        <div class=\"newsMk_title\">\n            热点\n        </div>\n        <div class=\"news_itme\">\n            <div class=\"news_imgs\">\n                <a shape=\"rect\" href=\"../news/1112158736\">\n                    <img src=\"../image/114780877/1578197048677425_hehuojihua.png\" alt=\"待业邦合伙人招募计划\"/>\n                </a>\n            </div>\n            <div class=\"news_data\">\n                <h3 class=\"news_data_title\">待业邦合伙人招募计划</h3>\n                <p>待业邦合伙人招募计划启动！失业已经成功中...</p>\n            </div>\n        </div>\n        <div class=\"news_itme\">\n            <div class=\"news_imgs\">\n                <a shape=\"rect\" href=\"../news/1116946561\">\n                    <img src=\"../image/news/2020-01-08-10-04-40_1578062359510449_11.jpg\" alt=\"待业邦上线啦！\"/>\n                </a>\n            </div>\n            <div class=\"news_data\">\n                <h3 class=\"news_data_title\">待业邦上线啦！</h3>\n                <p>待业邦上线啦！待业邦终于上线了，欢迎加入...</p>\n            </div>\n        </div>\n        <div class=\"news_itme\">\n            <div class=\"news_imgs\">\n                <a shape=\"rect\" href=\"../news/1048097925\">\n                    <img src=\"../image/news/2020-01-20-17-54-09_1.png\" alt=\"待业投资不可慌不择路，投资有风险，入市需谨慎\"/>\n                </a>\n            </div>\n            <div class=\"news_data\">\n                <h3 class=\"news_data_title\">待业投资不可慌不择路，投资有风险，入市需谨慎</h3>\n                <p>大多数的待业者在失去工作这主要收入来源后...</p>\n            </div>\n        </div>\n    </div>\n</div>\n<script type=\"text/javascript\" src=\"../lib/jquery-3.4.1.min.js\"/>\n\n&lt;script type=\"text/javascript\" src=\"../lib/jquery-validation/lib/jquery.js\"/&gt;\n&lt;script type=\"text/javascript\" src=\"../lib/bootstrap/js/jquery.cookie.js\"/&gt;\n&lt;script type=\"text/javascript\" src=\"../lib/bootstrap/js/complete.js\"/&gt;\n&lt;script type=\"text/javascript\" src=\"../lib/bootstrap/js/news.js\"/&gt;\n&lt;script type=\"text/javascript\" src=\"../lib/bootstrap/js/bootstrap.js\"/&gt;\n</body>\n</html>\nThen HTMLPATH_ASSERT \".news_title\" equals \"待业邦合伙人招募计划\"   # com.youlu.api.CommonStepDefinitions.htmlPath(java.lang.String,java.lang.String)\n<html lang=\"en\">\n<head/>\n<head>\n    <title>待业邦合伙人招募计划 - 待业邦</title>\n    <meta charset=\"UTF-8\"/>\n    <link rel=\"stylesheet\" href=\"../lib/bootstrap/css/news.css\"/>\n    <link rel=\"stylesheet\" href=\"../lib/bootstrap/css/bootstrap.min.css\"/>\n    <link href=\"../lib/froala_editor/css/froala_style.min.css\" rel=\"stylesheet\" type=\"text/css\"/>\n    <link href=\"../lib/froala_editor/css/froala_editor.pkgd.min.css\" rel=\"stylesheet\" type=\"text/css\"/>\n    <link rel=\"icon\" href=\"../imgs/icon/favicon.ico\"/>\n</head>\n<body>\n<div class=\"leayer clearfix\" id=\"herd\">\n    <a shape=\"rect\" class=\"fl\" href=\"#\">\n        <img id=\"logobd\" src=\"../lib/bootstrap/css/imgs/title.png\" alt=\"待业邦\"/>\n    </a>\n    <ul class=\"fl\">\n        <li class=\"fl\">\n            <a shape=\"rect\" class=\"nav\" href=\"../index.html\">首页</a>\n        </li>\n        <li class=\"fl\">\n            <a shape=\"rect\" class=\"nav\" href=\"../gambit.html\">话题</a>\n        </li>\n        <li class=\"fl\">\n            <a shape=\"rect\" class=\"nav\" href=\"../company.html\">曝光</a>\n        </li>\n    </ul>\n    <ul class=\"fr\" id=\"login_herd\"/>\n</div>\n<div class=\"leayer clearfix\" id=\"newsInfo\">\n    <div class=\"fl\" id=\"news_data_info\">\n        <h3 class=\"news_title\">待业邦合伙人招募计划</h3>\n        <div class=\"datatime\">\n            <span>2020-01-05 12:11:40</span>\n        </div>\n        <div class=\"describe fr-view\">\n            <p>待业邦合伙人招募计划启动！</p>\n            <p>失业已经成功中国面临的一个巨大的社会危机，2019年的互联网裁员潮，互联网的泡沫退去，清洗掉的不是浑水摸鱼不思进取的部分人，而是给整个社会敲响了警钟。中国高速经济增长为何没有带来高就业？当中国的经济出现停滞期，那会发生什么？</p>\n            <p>2019年，是过去十年最差的一年，但是却是未来十年最好的一年。整个社会都在悲观的预测。未来，可能举步维艰。</p>\n            <p>待业邦创建的目的：</p>\n            <p>希望大家有一个寒冬抱团取暖之处，群策群力，大家的力量可以改变很多东西，也可以创造很多东西。大家时间充裕，好的提议，随时可以找到一群支持者，衍生项目，造福社会，创造价值。</p>\n            <p>合作形式：</p>\n            <p>现在加入待业邦，将成为待业邦的一部分，待业邦的每一个决策都将在得到您的投票认同后实施，目前不设办公地、不设薪资、不设岗位。您将成为股东性质的一员，享受由您和团队一起创造的收益与价值，将按季度、或年度瓜分收益，具体分配方式将由各个成员一起决定。</p>\n            <p>这期间您可以继续求职，就业。但是希望您保证有一定的时间和经理来为待业邦创造价值。</p>\n            <p>合作年续：</p>\n            <p>当您正式加入后，除非项目停止、倒闭，另或者您自愿退出，另或者被投票逐出，待业邦将永久承认您的合伙人性质，始终享受利益分配、投票权、建议权。</p>\n            <p>您的职责：</p>\n            <p>为发展提供意见，或投票。</p>\n            <p>您擅长写作，可以维护站点内容。</p>\n            <p>您擅长运营，可以推广我们的理念或网站，邀请更多人加入。</p>\n            <p>您擅长设计，可以协助设计、优化项目页面。</p>\n            <p>您具有开发技能，可以一起协助维护或开发网站新功能。</p>\n            <p>项目现状：</p>\n            <p>目前待业邦已经实现了基础的社区话题功能，和企业曝光（发牢骚），个人寄语，公告发布，banner管理、个人信息管理，后期将围绕如何实现线上项目团队招募和管理为核心功能。</p>\n            <p>项目开发实现工具和框架：</p>\n            <p>更多详情加入后了解。</p>\n            <p>\n                <br clear=\"none\" style=\"box-sizing: border-box;\"/>\n            </p>\n            <p>如何加入：</p>\n            <p>可发送个人介绍到邮箱 postmaster@esxes.com 并添加我个人微信 shi120kg（备注：待业合伙人），通过后我将与您取得联系。</p>\n            <p>创始人发言：</p>\n            <p>这是一次真正的合伙人招募，不收取任何费用，不是以加盟形式出现，虽然我们处于初创阶段，后期市场较大，个人能力有限，资源有限，所以通过此类方式邀请大家加入，共创佳业。</p>\n        </div>\n    </div>\n    <div class=\"fr\" id=\"news_hot\">\n        <div class=\"newsMk_title\">\n            热点\n        </div>\n        <div class=\"news_itme\">\n            <div class=\"news_imgs\">\n                <a shape=\"rect\" href=\"../news/1112158736\">\n                    <img src=\"../image/114780877/1578197048677425_hehuojihua.png\" alt=\"待业邦合伙人招募计划\"/>\n                </a>\n            </div>\n            <div class=\"news_data\">\n                <h3 class=\"news_data_title\">待业邦合伙人招募计划</h3>\n                <p>待业邦合伙人招募计划启动！失业已经成功中...</p>\n            </div>\n        </div>\n        <div class=\"news_itme\">\n            <div class=\"news_imgs\">\n                <a shape=\"rect\" href=\"../news/1116946561\">\n                    <img src=\"../image/news/2020-01-08-10-04-40_1578062359510449_11.jpg\" alt=\"待业邦上线啦！\"/>\n                </a>\n            </div>\n            <div class=\"news_data\">\n                <h3 class=\"news_data_title\">待业邦上线啦！</h3>\n                <p>待业邦上线啦！待业邦终于上线了，欢迎加入...</p>\n            </div>\n        </div>\n        <div class=\"news_itme\">\n            <div class=\"news_imgs\">\n                <a shape=\"rect\" href=\"../news/1048097925\">\n                    <img src=\"../image/news/2020-01-20-17-54-09_1.png\" alt=\"待业投资不可慌不择路，投资有风险，入市需谨慎\"/>\n                </a>\n            </div>\n            <div class=\"news_data\">\n                <h3 class=\"news_data_title\">待业投资不可慌不择路，投资有风险，入市需谨慎</h3>\n                <p>大多数的待业者在失去工作这主要收入来源后...</p>\n            </div>\n        </div>\n    </div>\n</div>\n<script type=\"text/javascript\" src=\"../lib/jquery-3.4.1.min.js\"/>\n\n\n&amp;lt;script type=\"text/javascript\" src=\"../lib/jquery-validation/lib/jquery.js\"/&amp;gt;\n&amp;lt;script type=\"text/javascript\" src=\"../lib/bootstrap/js/jquery.cookie.js\"/&amp;gt;\n&amp;lt;script type=\"text/javascript\" src=\"../lib/bootstrap/js/complete.js\"/&amp;gt;\n&amp;lt;script type=\"text/javascript\" src=\"../lib/bootstrap/js/news.js\"/&amp;gt;\n&amp;lt;script type=\"text/javascript\" src=\"../lib/bootstrap/js/bootstrap.js\"/&amp;gt;\n</body>\n</html>\n"
+  }
+}, {
+  "request": {
+    "uri": "/hr/random/test1"
+  },
+  "response": {
+    "json":{
+      "code": 200,
+      "msg" : "删除成功！！！"
+    }
+  }
+}, {
+  "request": {
+    "uri": "/hr/random/test2"
+  },
+  "response": {
+    "json":{
+      "code": 200,
+      "msg" : "删除成功！！！"
+    }
+  }
+}, {
+  "request": {
+    "uri": "/hr/random/test3"
+  },
+  "response": {
+    "json":{
+      "code": 200,
+      "msg" : "删除成功！！！"
+    }
+  }
+},
+  {
+    "request": {
+      "uri": "/hr/test"
+    },
+    "response": {
+      "json":{
+        "code": 0,
+        "msg": "请求成功",
+        "data": [
+          {
+            "yearId": "0",
+            "year": "2021",
+            "type": 0,
+            "isCurrent": true,
+            "isNaturalMonth": null,
+            "days": null,
+            "parentId": null,
+            "children": [
+              {
+                "yearId": "YEAR1347422249510113280",
+                "year": "2020",
+                "type": 0,
+                "isCurrent": false,
+                "isNaturalMonth": 1,
+                "days": 15,
+                "parentId": "0",
+                "children": null
+              },
+              {
+                "yearId": "YEAR1347789436896808960",
+                "year": "2021",
+                "type": 0,
+                "isCurrent": true,
+                "isNaturalMonth": 0,
+                "days": null,
+                "parentId": "0",
+                "children": null
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+]

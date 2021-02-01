@@ -1,6 +1,6 @@
 Feature: ["读取人员接口"]
 
-  Scenario Outline: 读取人员接口_正向测试
+  Scenario Outline: wx_读取人员接口
     Given API "/cgi-bin/user/get"
     And Param
     """

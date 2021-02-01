@@ -1,20 +1,22 @@
-Feature: ["新增成员接口"]
+Feature: 企业微信_新增人员接口
 
-  Scenario Outline: 新增人员接口_正向测试
+  Scenario: wx_新增人员接口
     Given API "/cgi-bin/user/create?access_token=${getToken}"
     And Body
     """
      {
       "userid": "TESTER",
-      "name": "czy",
-      "alias": "czy",
-      "mobile": "15238305317",
+      "name": "${wxName}",
+      "alias": "Random(Char[4])",
+      "mobile": "${mobile}",
        "department": [2],
       }
     """
     When POST
     Then STATUS "200"
-    Then JSONPATH_ASSERT "<jsonPath>" equals "<value>"
-    Examples:
-      | jsonPath | value  |
+#    jsonpath使用
+    Then JSONPATH_GET_MONGO
+      | mobile|${mobile} |
+#    jsonpath断言使用
+    Then JSONPATH_ASSERT_EQUALS
       | errcode  | 0      |

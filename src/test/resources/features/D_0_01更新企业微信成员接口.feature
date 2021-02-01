@@ -1,6 +1,6 @@
 Feature: ["更新成员接口"]
 
-  Scenario Outline: 更新人员接口_正向测试
+  Scenario: 更新人员接口_正向测试
     Given API "/cgi-bin/user/update?access_token=${getToken}"
     And Body
     """
@@ -17,8 +17,6 @@ Feature: ["更新成员接口"]
     """
     When POST
     Then STATUS "200"
-    Then JSONPATH_ASSERT "<jsonPath>" equals "<value>"
-    Examples:
-      | jsonPath | value  |
+    Then JSONPATH_ASSERT_EQUALS
       | errcode  | 0      |
       | errmsg   |updated |

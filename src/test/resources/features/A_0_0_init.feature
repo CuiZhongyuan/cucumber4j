@@ -4,8 +4,9 @@ Feature: 初始化数据
   Scenario:  初始化变量数据
     Given INI_VAR_DATA
     """
-    testNum: Random(Long[4])
-    testNum: Random(Char[4])
+    mobile: 15238305Random(Long[3])
+    wxName: zyRandom(Char[2])
+    alias: Random(Char[4])
     """
 #    And INIT_MYSQL_DATA
 #    """
