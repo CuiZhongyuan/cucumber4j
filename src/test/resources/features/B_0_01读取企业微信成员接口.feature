@@ -7,7 +7,9 @@ Feature: ["读取人员接口"]
     access_token: ${getToken}
     userid: CuiZhongYuan
     """
-    When GET
+    When STRESS
+      | API_TYPE | GET |
+      | RUN_NUMS | 1|
     Then STATUS "200"
     Then JSONPATH_ASSERT "<jsonPath>" equals "<value>"
     Examples:
