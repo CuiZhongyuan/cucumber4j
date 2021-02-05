@@ -12,7 +12,7 @@ Feature: 初始化数据
     wxName: zyRandom(Char[2])
     alias: alias_Random(Char[4])
     userid: userid_testRandom(Char[4])
-    editUserid: editTestRandom(Char[2])
+    editUserid: 修改名称操作_Random(Char[2])
     """
 #    And INIT_MYSQL_DATA
 #    """

@@ -1,4 +1,4 @@
-#@test
+@test
 Feature: D_0_01编辑新增企业微信成员操作
 
   Scenario: 编辑新增企业微信成员操作
@@ -6,14 +6,14 @@ Feature: D_0_01编辑新增企业微信成员操作
     And Body
     """
           {
-          "userid": "testRandom(Char[4])",
+          "userid": "${userid}",
           "name": "${editUserid}",
-          "department": [1],
+          "department": [3],
           "order": [10],
           "position": "测试工程师",
-          "mobile": "13800000001",
+          "mobile": "15238305311",
           "gender": "1",
-          "email": "zhangsan@gdev.com"
+          "email": "zhangsn@gdev.com"
       }
     """
     When POST
