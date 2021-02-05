@@ -1,6 +1,7 @@
+@test
 Feature: ["获取access_token"]
 
-  Scenario Outline: 获取access_token
+  Scenario: 获取access_token
     Given API "/cgi-bin/gettoken"
     And Param
     """
@@ -9,9 +10,7 @@ Feature: ["获取access_token"]
     """
     When GET
     Then STATUS "200"
-    Then JSONPATH_ASSERT "<jsonPath>" equals "<value>"
     Then JSONPATH_GET_MONGO
     |access_token|getToken|
-    Examples:
-      | jsonPath | value  |
+    Then JSONPATH_ASSERT_EQUALS
       | errmsg   | ok |

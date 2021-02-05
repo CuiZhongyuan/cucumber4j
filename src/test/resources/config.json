@@ -83,7 +83,8 @@
 },
   {
     "request": {
-      "uri": "/hr/test"
+      "uri": "/hr/test",
+      "method":"get"
     },
     "response": {
       "json":{

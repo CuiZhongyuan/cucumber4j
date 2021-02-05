@@ -1,12 +1,18 @@
+@test
 Feature: 初始化数据
 
 #  A3B0F1DDA7614156A306BB950E9F9D73
   Scenario:  初始化变量数据
+    Given INIT_MOCK
     Given INI_VAR_DATA
     """
-    mobile: 15238305Random(Long[3])
+    name: 测试名_Random(Char[4])
+    mobile: 152Random(Long[5])5317
+    email: testerRandom(Char[4])@qq.com
     wxName: zyRandom(Char[2])
-    alias: Random(Char[4])
+    alias: alias_Random(Char[4])
+    userid: userid_testRandom(Char[4])
+    editUserid: editTestRandom(Char[2])
     """
 #    And INIT_MYSQL_DATA
 #    """

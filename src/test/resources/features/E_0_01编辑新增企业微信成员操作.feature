@@ -1,18 +1,19 @@
-Feature: ["更新成员接口"]
+#@test
+Feature: D_0_01编辑新增企业微信成员操作
 
-  Scenario: 更新人员接口_正向测试
+  Scenario: 编辑新增企业微信成员操作
     Given API "/cgi-bin/user/update?access_token=${getToken}"
     And Body
     """
           {
-          "userid": "CuiZhongYuan",
-          "name": "修改李四",
+          "userid": "testRandom(Char[4])",
+          "name": "${editUserid}",
           "department": [1],
           "order": [10],
-          "position": "后台工程师",
-          "mobile": "13800000000",
+          "position": "测试工程师",
+          "mobile": "13800000001",
           "gender": "1",
-          "email": "zhangsan@gzdev.com"
+          "email": "zhangsan@gdev.com"
       }
     """
     When POST

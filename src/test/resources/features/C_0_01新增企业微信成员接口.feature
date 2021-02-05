@@ -1,3 +1,4 @@
+@test
 Feature: 企业微信_新增人员接口
 
   Scenario: wx_新增人员接口
@@ -5,18 +6,17 @@ Feature: 企业微信_新增人员接口
     And Body
     """
      {
-      "userid": "TESTER",
-      "name": "${wxName}",
-      "alias": "Random(Char[4])",
+      "userid": "${userid}",
+      "name": "${name}",
+      "position": "测试工程师",
+      "alias": "${alias}",
       "mobile": "${mobile}",
-       "department": [2],
+      "email":"${email}",
+       "department": [3],
       }
     """
     When POST
     Then STATUS "200"
-#    jsonpath使用
-    Then JSONPATH_GET_MONGO
-      | mobile|${mobile} |
 #    jsonpath断言使用
     Then JSONPATH_ASSERT_EQUALS
       | errcode  | 0      |

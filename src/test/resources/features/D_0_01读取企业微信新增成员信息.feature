@@ -1,4 +1,4 @@
-#@test
+@test
 Feature: ["读取人员接口"]
 
   Scenario Outline: wx_读取人员接口
@@ -6,7 +6,7 @@ Feature: ["读取人员接口"]
     And Param
     """
     access_token: ${getToken}
-    userid: CuiZhongYuan
+    userid: ${userid}
     """
     When GET
     Then STATUS "200"
