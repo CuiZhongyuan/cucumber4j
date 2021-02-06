@@ -5,10 +5,9 @@ Feature: F_0_01删除企业微信成员操作
     Given API "/cgi-bin/user/delete?access_token=${getToken}"
     And Param
     """
-    userid: userid_testAAno
+    userid: userid_testGgKD
     """
     When GET
-    Then JSONPATH_GET_MONGO
     Then STATUS "200"
     Then JSONPATH_ASSERT_EQUALS
       | errcode  | 0      |
