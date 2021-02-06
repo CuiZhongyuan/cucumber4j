@@ -1,5 +1,5 @@
 @test
-Feature: ["获取access_token"]
+Feature: A_0_0获取access_token接口
 
   Scenario: 获取access_token
     Given API "/cgi-bin/gettoken"

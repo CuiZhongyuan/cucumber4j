@@ -1,5 +1,5 @@
 @test
-Feature: D_0_01编辑新增企业微信成员操作
+Feature: E_0_01编辑新增企业微信成员操作
 
   Scenario: 编辑新增企业微信成员操作
     Given API "/cgi-bin/user/update?access_token=${getToken}"

@@ -1,5 +1,5 @@
 
-Feature: mock数据测试
+Feature: G_0_01mock数据测试
 
   Scenario: mock数据测试
     Given API "/hr/test"

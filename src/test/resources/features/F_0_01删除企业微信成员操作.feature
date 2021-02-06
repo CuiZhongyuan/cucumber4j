@@ -1,5 +1,5 @@
 @test
-Feature: F_0_01删除新增企业微信成员操作
+Feature: F_0_01删除企业微信成员操作
 
   Scenario: 删除新增企业微信成员操作
     Given API "/cgi-bin/user/delete?access_token=${getToken}"

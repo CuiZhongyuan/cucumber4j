@@ -1,5 +1,5 @@
 @test
-Feature: ["读取人员接口"]
+Feature: D_0_01读取企业微信新增成员信息
 
   Scenario Outline: wx_读取人员接口
     Given API "/cgi-bin/user/get"

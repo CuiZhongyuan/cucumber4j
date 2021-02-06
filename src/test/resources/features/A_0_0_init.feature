@@ -1,5 +1,5 @@
 @test
-Feature: 初始化数据
+Feature: A_0_0_init初始化变量池
 
   Scenario:  初始化变量数据
     Given INIT_MOCK

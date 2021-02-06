@@ -1,5 +1,5 @@
 @test
-Feature: 企业微信_新增人员接口
+Feature: C_0_01新增企业微信成员接口
 
   Scenario: wx_新增人员接口
     Given API "/cgi-bin/user/create?access_token=${getToken}"
