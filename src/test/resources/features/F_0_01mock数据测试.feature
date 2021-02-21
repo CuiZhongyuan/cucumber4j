@@ -1,8 +1,10 @@
-
+@test
 Feature: G_0_01mock数据测试
 
   Scenario: mock数据测试
+    Given INIT_MOCK
     Given API "/hr/test"
+    And GET_MOCK
     And HeadersX
       | Authorization | ${Authorization} |
     When GET_MOCK
